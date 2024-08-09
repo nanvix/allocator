@@ -1,0 +1,18 @@
+# Copyright(c) The Maintainers of Nanvix.
+# Licensed under the MIT License.
+
+[package]
+name = "allocator"
+version = "0.0.1"
+license-file = "LICENSE.txt"
+edition = "2021"
+authors = ["The Maintainers of Nanvix"]
+description = "Memory Allocator for no_std Systems"
+homepage = "https://github.com/nanvix"
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+error = { git = "https://github.com/nanvix/error", branch = "releases/v0.0.1" }
+slab = { git = "https://github.com/nanvix/slab", branch = "releases/v0.0.1" }
