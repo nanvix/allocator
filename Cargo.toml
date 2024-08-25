@@ -3,7 +3,7 @@
 
 [package]
 name = "allocator"
-version = "0.0.2"
+version = "0.0.3"
 license-file = "LICENSE.txt"
 edition = "2021"
 authors = ["The Maintainers of Nanvix"]
@@ -14,8 +14,8 @@ homepage = "https://github.com/nanvix"
 crate-type = ["lib"]
 
 [dependencies]
-error = { git = "https://github.com/nanvix/error", branch = "releases/v0.0.2" }
-slab = { git = "https://github.com/nanvix/slab", branch = "releases/v0.0.2" }
+error = { git = "https://github.com/nanvix/error", branch = "releases/v0.0.3" }
+slab = { git = "https://github.com/nanvix/slab", branch = "releases/v0.0.3" }
 
 [profile.release]
 opt-level = 3
